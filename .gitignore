@@ -1,0 +1,13 @@
+.DS_Store
+GBCartRead.X/build/*
+
+*.lst
+*.map
+*.cof
+*.obj
+*.hxl
+*.rlf
+*.sdb
+*.sym
+*.p1
+*.pre

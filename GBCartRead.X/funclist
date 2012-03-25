@@ -1,0 +1,19 @@
+_init: CODE, 111 0 65
+_read_descriptor: CODE, 1129 0 257
+_diag_hexdump: CODE, 397 0 104
+_putch: CODE, 3962 0 12
+_write_address: CODE, 81 0 30
+_dump_ram: CODE, 717 0 185
+_main: CODE, 501 0 107
+_interactive: CODE, 1386 0 258
+_getche: CODE, 10 0 13
+___lwdiv: CODE, 319 0 78
+_ram_read_address: CODE, 23 0 29
+_diagnostics: CODE, 902 0 227
+_getch: CODE, 3974 0 11
+_printf: CODE, 1644 0 404
+___lwmod: CODE, 176 0 68
+_read_address: CODE, 3935 0 27
+_shift_out: CODE, 244 0 75
+_dump_rom: CODE, 608 0 109
+Total: 2059
