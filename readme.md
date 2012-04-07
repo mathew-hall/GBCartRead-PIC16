@@ -5,7 +5,7 @@ Includes schematic for the hardware and source (HI-TECH PIC C) for the firmware.
 
 # Required Hardware
 * Gameboy cartridge header (or solder a pin header to your cartridge)
-* PIC16F690 (any PIC with enough IOs - 15, including 8 bidirectional - and harware UART should work)
+* PIC16F690 (any PIC with enough IOs - 15, including 8 bidirectional - and hardware UART should work)
 * 2x 74xx594 shift registers (595s will work with changes to code)
 * MAX232 or equivalent level shifter
 * Handful of passive components (4x 1uF capacitors, 4x 10Kohm reistors)
