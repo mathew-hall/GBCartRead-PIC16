@@ -9,11 +9,12 @@ http://creativecommons.org/licenses/by-nc/3.0/
 #include "shiftreg.h"
 #include "base.h"
 
-#ifdef __amd64
-//just debug out for now, TODO: make this pretend to be a proper SR bank.
+#ifdef TARGET_PC
+
 void shift_out(t_address addr){
 	printf("SR @ 0x%x",addr);
 }
+
 #else
 void shift_out(t_address addr){	
     uchar count = 16;

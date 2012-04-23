@@ -1,6 +1,6 @@
 /**
  * UART stuff. This code is based off any implementation you might find.
- * Maps to stdio functions when built on AMD64.
+ * Maps to stdio functions when built on non-PIC targets.
  */
 #include "base.h"
 
@@ -8,7 +8,7 @@
 #include "usart.h"
 
 
-#ifdef __amd64
+#ifdef TARGET_PC
 void putch(unsigned char byte){
 	putchar(byte);
 }
